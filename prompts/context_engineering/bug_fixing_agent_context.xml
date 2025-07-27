@@ -29,7 +29,7 @@
           1. Relevant quotes from bug report and logs
           2. Candidate failing components/functions with reasoning
           3. Proposed code changes + rationale
-          4. Potential impacts & edge cases
+          4. Potential impacts and edge cases
           5. Test strategy (cases, edge, perf, compatibility)
         </bug_analysis>
       </Step>
