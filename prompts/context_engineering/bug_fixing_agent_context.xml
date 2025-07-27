@@ -22,7 +22,10 @@
 
   <Requirements>
     <Steps>
-      <Step>Review <bug_report>{{bug_report}}</bug_report> and <system_logs>{{system_logs}}</system_logs>.</Step>
+      <Step>Review 
+        <bug_report>{{bug_report}}</bug_report> and 
+        <system_logs>{{system_logs}}</system_logs>.
+      </Step>
       <Step>Perform detailed reasoning and wrap it in <bug_analysis> tags:</Step>
       <Step>
         <bug_analysis>
