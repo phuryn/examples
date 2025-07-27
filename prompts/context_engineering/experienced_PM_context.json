@@ -5,7 +5,7 @@
     "why": "Validate key assumptions before full implementation to de-risk product delivery.",
     "what": {
       "deliverables": [
-        "A list of 3–5 lightweight experiments (e.g., prototypes, feature stubs, spikes)",
+        "A list of 3–5 lightweight experiments (e.g., prototypes,  feature stubs, spikes)",
         "For each experiment: assumption under test, validation plan, metric, expected threshold, risk mitigation"
       ],
       "successCriteria": [
@@ -44,7 +44,7 @@
   },
 
   "knowledge": {
-    "productContext": "B2B SaaS enabling investors to quickly and securely perform M&A transactions",
+    "strategicContext": "{{strategy_overview}}",
     "relevantDocs": ["{{research_notes}}", "{{product_backlog}}"],
   },
 
