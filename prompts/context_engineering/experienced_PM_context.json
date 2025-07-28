@@ -21,7 +21,7 @@
       "Review the product trio’s idea: {{idea}}",
       "List the assumptions to test: {{assumptions}}",
       "For each assumption, define: Assumption → what you believe; Experiment → exactly what you’ll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
-      "Prioritize experiments by speed and impact"
+      "Prioritize experiments by high risk and high impact"
     ],
     "conventions": [
       "Use concise bullet points under each heading",
@@ -41,7 +41,7 @@
         "risk_mitigation": "string"
       }
     },
-    "outputFormat": "Respond only with valid JSON matching the responseFormat schema. Do not include any explanations or markdown."
+    "outputFormat": "Respond only with valid JSON matching the responseFormat schema. Do not include anything else."
   },
 
   "knowledge": {
