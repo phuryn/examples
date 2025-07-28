@@ -1,6 +1,5 @@
 {
   "role": "Act as an experienced Product Manager performing product discovery for {{product}}.",
-
   "objective": {
     "why": "Validate key assumptions before full implementation to de-risk product delivery.",
     "what": {
@@ -15,10 +14,9 @@
       ]
     }
   },
-
   "requirements": {
     "steps": [
-      "Review the product trio’s idea: {{idea}}",
+      "Review the product trio's idea: {{idea}}",
       "List the assumptions to test: {{assumptions}}",
       "For each assumption, define: Assumption - what you believe; Experiment - exactly what you’ll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
       "Prioritize experiments by high risk and high impact"
@@ -43,22 +41,23 @@
     },
     "outputFormat": "Respond only with valid JSON matching the responseFormat schema. Do not include anything else."
   },
-
   "examples": {
     "positiveBehaviors": [
       "Propose an A/B click-through prototype with a clear click-rate metric",
-      "Design a first-click test using Figma and track actual task completion,"
+      "Design a first-click test using Figma and track actual task completion",
       "Suggest experiments for high-risk assumptions"
     ],
     "negativeBehaviors": [
       "Suggest surveys without measuring real user interactions",
-      "Plan production experiments without rollback criteria,"
+      "Plan production experiments without rollback criteria", 
       "Suggest experiments for low-risk low-impact assumptions"
     ]
   },
-
   "knowledge": {
     "strategicContext": "{{strategy_overview}}",
-    "relevantDocs": ["{{research_notes}}", "{{product_backlog}}"],
+    "relevantDocs": [
+      "{{research_notes}}",
+      "{{product_backlog}}"
+    ]
   }
 }
