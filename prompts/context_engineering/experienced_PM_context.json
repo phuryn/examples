@@ -1,5 +1,5 @@
 {
-  "role": "Act as an experienced Product Manager performing continuous product discovery for {{product}}.",
+  "role": "Act as an experienced Product Manager performing product discovery for {{product}}.",
 
   "objective": {
     "why": "Validate key assumptions before full implementation to de-risk product delivery.",
