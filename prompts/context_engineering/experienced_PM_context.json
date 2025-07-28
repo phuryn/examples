@@ -40,7 +40,8 @@
         "expected": "string",
         "risk_mitigation": "string"
       }
-    }
+    },
+    "outputFormat": "Respond only with valid JSON matching the responseFormat schema. Do not include any explanations or markdown."
   },
 
   "knowledge": {
