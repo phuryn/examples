@@ -44,11 +44,6 @@
     "outputFormat": "Respond only with valid JSON matching the responseFormat schema. Do not include anything else."
   },
 
-  "knowledge": {
-    "strategicContext": "{{strategy_overview}}",
-    "relevantDocs": ["{{research_notes}}", "{{product_backlog}}"],
-  },
-
   "examples": {
     "positiveBehaviors": [
       "Propose an A/B click-through prototype with a clear click-rate metric",
@@ -60,5 +55,10 @@
       "Plan production experiments without rollback criteria,"
       "Suggest experiments for low-risk low-impact assumptions"
     ]
+  },
+
+  "knowledge": {
+    "strategicContext": "{{strategy_overview}}",
+    "relevantDocs": ["{{research_notes}}", "{{product_backlog}}"],
   }
 }
