@@ -4,7 +4,7 @@
     "why": "Validate key assumptions before full implementation to de-risk product delivery.",
     "what": {
       "deliverables": [
-        "A list of 3–5 lightweight experiments (e.g., prototypes,  feature stubs, spikes)",
+        "A list of 3-5 lightweight experiments (e.g., prototypes,  feature stubs, spikes)",
         "For each experiment: assumption under test, validation plan, metric, expected threshold, risk mitigation"
       ],
       "successCriteria": [
@@ -18,7 +18,7 @@
     "steps": [
       "Review the product trio's idea: {{idea}}",
       "List the assumptions to test: {{assumptions}}",
-      "For each assumption, define: Assumption - what you believe; Experiment - exactly what you’ll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
+      "For each assumption, define: Assumption - what you believe; Experiment - exactly what you'll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
       "Prioritize experiments by high risk and high impact"
     ],
     "conventions": [
