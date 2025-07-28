@@ -20,12 +20,12 @@
     "steps": [
       "Review the product trio’s idea: {{idea}}",
       "List the assumptions to test: {{assumptions}}",
-      "For each assumption, define: Assumption → what you believe; Experiment → exactly what you’ll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
+      "For each assumption, define: Assumption - what you believe; Experiment - exactly what you’ll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
       "Prioritize experiments by high risk and high impact"
     ],
     "conventions": [
       "Use concise bullet points under each heading",
-      "Follow the pattern: Assumption → Experiment → Metric → Expected → Risk Mitigation"
+      "Follow the pattern: Assumption -> Experiment -> Metric -> Expected Value -> Risk Mitigation"
     ],
     "constraints": [
       "Measure actual behavior, not subjective feedback",
