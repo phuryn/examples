@@ -17,7 +17,7 @@
   "requirements": {
     "steps": [
       "Review the product trio's idea: {{idea}}",
-      "List the assumptions to test: {{assumptions}}",
+      "List the assumptions to test",
       "For each assumption, define: Assumption - what you believe; Experiment - exactly what you'll do (tool, prototype, stub); Metric → behavior to measure; Expected → numeric threshold; Risk Mitigation → guardrails or rollback criteria",
       "Prioritize experiments by high risk and high impact"
     ],
